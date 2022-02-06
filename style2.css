@@ -1,0 +1,132 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    background-color: #ffffff;
+}
+
+:root{
+    --dark:#2b2d42;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    height: 175vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(200px);
+}
+
+.container h1{
+    color: var(--dark);
+    font-size: 100px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-top: 300px;
+    transform: translateY(-10px);
+}
+
+
+.blogs__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    padding: auto auto;
+}
+
+.post{
+    background-color: rgb(148, 84, 207);
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--dark);
+    transform: translateY(-30px)
+
+}
+
+.post img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.post small{
+    margin: 10px 0;
+    padding: 3px 10px;
+    background-color: var(--dark);
+    border-radius: 10px;
+    color: rgb(148, 84, 207);
+    width: fit-content;
+    background: rgb(255, 255, 255);
+}
+
+.post .description{
+    margin: 10px 0;
+    height: 30%;
+    background-color: rgb(148, 84, 207);
+    color:rgb(255, 255, 255);
+}
+
+.post .more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(148, 84, 207);
+}
+
+.more p{
+    font-size: 16px;
+    text-transform: uppercase;
+    background: rgb(148, 84, 207);
+}
+
+.more a{
+    position: relative;
+    color:rgb(148, 84, 207)
+}
+
+.more i{
+    font-size: 25px;
+    background: rgb(148, 84, 207);
+}
+.post h2{
+    background-color: rgb(148, 84, 207);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.up{
+    position: relative;
+}
